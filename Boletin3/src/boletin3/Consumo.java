@@ -32,7 +32,7 @@ public class Consumo {
         return cMed;
     }
     public float consumoEuros(){
-        float cEuros = pGas / this.consumoMedio() * 100;
+        float cEuros = pGas * this.consumoMedio();
         return cEuros;
     }
     public float getKm(){
