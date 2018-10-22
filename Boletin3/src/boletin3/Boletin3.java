@@ -22,7 +22,7 @@ public class Boletin3 {
         Consumo consumo2 = new Consumo(451f, 65.7f, 74.3f, 1.57f);
         System.out.println("consumo medio = " + consumo2.consumoMedio());
         consumo2.setLitros(56.2f);
-        System.out.println("velocidade media" + consumo2.getVmed());
+        System.out.println("velocidade media = " + consumo2.getVmed());
     }
        
 }
